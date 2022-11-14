@@ -1,0 +1,14 @@
+.comments_wrapper {
+  display: flex;
+  flex-direction: column;
+  max-height: 30rem;
+  min-height: 10rem;
+  justify-content: space-between;
+  .comments_list {
+    margin: 1rem 0.3rem;
+  }
+  .no_comments {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+  }
+}

@@ -1,0 +1,41 @@
+@import "@assets/styles/variables";
+
+.react-async_select {
+  &__value-container {
+    border-radius: 3px;
+    display: inline-flex;
+    align-items: center;
+    background-color: #fff;
+    margin: 0.6rem 0.2rem 0.6rem 0.3rem;
+    background-color: transparent;
+  }
+  &__input-container {
+    color: #fff !important;
+  }
+  &__control {
+    border: 1px solid $second-color !important;
+    font-size: 13px;
+    box-shadow: none !important;
+    margin: 0 0.2rem 0.8rem 0;
+    background-color: transparent !important;
+  }
+
+  &__indicator-separator {
+    display: none;
+  }
+  &__dropdown-indicator {
+    display: none !important;
+  }
+
+  &__multi-value {
+    background: $main-color !important;
+    color: #fff !important;
+
+    &__label {
+      color: #fff !important;
+    }
+    &__remove:hover {
+      background: darkorange !important;
+    }
+  }
+}

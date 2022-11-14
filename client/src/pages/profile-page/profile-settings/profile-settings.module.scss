@@ -1,0 +1,117 @@
+@import "@assets/styles/variables";
+
+form {
+  .avatar {
+    display: flex;
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    svg {
+      position: absolute;
+      left: 0;
+      top: 2.5rem;
+      left: 2.4rem;
+      z-index: 100;
+    }
+    .preview {
+      display: flex;
+      position: relative;
+      &_input {
+        display: none;
+      }
+    }
+    .upload_container {
+      margin-left: 1rem;
+      width: 100px;
+      height: 100px;
+      border: 1px dashed rgba(255, 255, 255, 0.6);
+      border-radius: 50%;
+      position: relative;
+      svg {
+        position: absolute;
+        left: 0;
+        top: 2.5rem;
+        left: 2.4rem;
+        z-index: 100;
+      }
+    }
+    .avatar_img {
+      border-radius: 50%;
+      filter: opacity(0.7);
+      border: 1px dashed rgba(255, 255, 255, 0.6);
+    }
+    &_input {
+      display: none;
+    }
+  }
+  .background {
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    .preview {
+      display: flex;
+      position: relative;
+      &_input {
+        display: none;
+      }
+    }
+    .upload_container {
+      margin-left: 1rem;
+      width: 100px;
+      height: 100px;
+      border: 1px dashed rgba(255, 255, 255, 0.6);
+      position: relative;
+      svg {
+        position: absolute;
+        left: 0;
+        top: 2.5rem;
+        left: 2.4rem;
+        z-index: 100;
+      }
+    }
+    img {
+      width: 13rem;
+      filter: opacity(0.7);
+      border: 1px dashed rgba(255, 255, 255, 0.6);
+    }
+    img:hover {
+      filter: brightness(0.8);
+    }
+
+    &_input {
+      display: none;
+    }
+    svg {
+      position: absolute;
+      left: 0;
+      top: 2.5rem;
+      left: 6rem;
+      z-index: 100;
+    }
+  }
+
+  .bio_textarea {
+    margin-bottom: 0.5rem;
+    textarea {
+      color: $text-color;
+      background-color: transparent;
+      resize: none;
+    }
+  }
+
+  h4 {
+    margin-bottom: 1rem;
+  }
+
+  .gender_select {
+    select {
+      background: transparent;
+      color: $text-color;
+    }
+  }
+  button {
+    margin-top: 1rem;
+  }
+}

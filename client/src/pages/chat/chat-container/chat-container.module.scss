@@ -1,0 +1,11 @@
+.chat_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem 1rem 0.3rem 1rem;
+
+  .no_chat__msg {
+    align-self: center;
+  }
+}

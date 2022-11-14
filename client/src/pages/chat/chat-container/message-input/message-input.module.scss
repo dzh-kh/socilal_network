@@ -1,0 +1,23 @@
+@import "@assets/styles/variables";
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.8rem 3rem 0.8rem 1rem;
+  border-radius: 10px;
+  svg {
+    position: absolute;
+    right: 10px;
+    fill: $second-color;
+  }
+  border: 1px solid $main-color;
+}
+
+.input {
+  width: 100%;
+  outline: none;
+  border: none;
+  background: transparent;
+  color: $text-color;
+}

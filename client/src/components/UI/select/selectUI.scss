@@ -1,0 +1,48 @@
+@import "@assets/styles/variables";
+
+.react-select {
+  &__value-container {
+    border-radius: 3px;
+    display: inline-flex;
+    align-items: center;
+    background-color: transparent;
+    color: #fff !important;
+    width: fit-content;
+    margin: 0 2rem;
+  }
+  &__control {
+    border: 1px solid $main-color !important;
+    font-size: 13px;
+    box-shadow: none !important;
+    margin: 0 0.2rem 0.8rem 0;
+    background-color: transparent !important;
+
+    font-size: 1rem;
+  }
+  &__single-value {
+    color: #fff !important;
+  }
+  &__menu-list {
+    padding: 0.3rem 0.4rem;
+    color: black;
+  }
+
+  &__indicator-separator {
+    display: none;
+  }
+  &__dropdown-indicator {
+    display: none !important;
+  }
+
+  &__multi-value {
+    background: darkorange !important;
+    color: #fff !important;
+
+    &__label {
+      color: #fff !important;
+    }
+    &__remove:hover {
+      background: darkorange !important;
+    }
+  }
+}

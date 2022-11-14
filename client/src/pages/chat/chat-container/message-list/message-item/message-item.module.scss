@@ -1,0 +1,45 @@
+@import "@assets/styles/variables";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  span {
+    color: lightgray;
+    width: fit-content;
+    margin: 0.5rem;
+    font-size: small;
+  }
+  .message {
+    background: $main-color;
+    padding: 0.4rem 0.6rem;
+    border-radius: 17px;
+    width: fit-content;
+    svg {
+      display: none;
+    }
+  }
+}
+
+.own_msg__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  .message {
+    svg {
+      margin-left: 0.2rem;
+      fill: $main-color;
+      align-self: flex-end;
+    }
+    display: flex;
+    background: $second-color;
+    padding: 0.4rem 0.6rem;
+    border-radius: 17px;
+    width: fit-content;
+  }
+  span {
+    font-size: small;
+    color: lightgray;
+    width: fit-content;
+    margin: 0.5rem;
+  }
+}

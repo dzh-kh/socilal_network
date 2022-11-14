@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@ui": ["./components/UI/index.js"],
+      "@hooks": ["./hooks/index.js"],
+      "@models/*": ["./models/*"],
+      "@store/*": ["./store/*"],
+      "@assets/*": ["./assets/*"],
+      "@utils/*": ["./utils/*"],
+      "@consts/*": ["./consts/*"],
+      "@services": ["./api/services/index.js"]
+    }
+  }
+}

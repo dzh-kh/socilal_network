@@ -1,0 +1,24 @@
+@import "@assets/styles/variables";
+
+.comment {
+  margin-bottom: 2rem;
+  &__text {
+    font-size: 0.9rem;
+  }
+  &__replies {
+    margin-left: 4rem;
+  }
+  &__action {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.3rem;
+    &_reply_button {
+      border: none;
+      outline: none;
+      background-color: transparent;
+      color: $main-color;
+      cursor: pointer;
+      font-size: 0.9rem;
+    }
+  }
+}

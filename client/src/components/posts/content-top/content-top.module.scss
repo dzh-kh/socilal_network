@@ -1,0 +1,67 @@
+.content_top {
+  display: flex;
+  font-size: 0.9rem !important;
+  justify-content: space-between;
+  svg {
+    cursor: pointer;
+  }
+  .author_info {
+    display: flex;
+    align-items: center;
+    img {
+      border-radius: 50%;
+      margin-right: 0.5rem;
+    }
+    a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      margin-bottom: 12px;
+    }
+  }
+  .created_date {
+    opacity: 0.7;
+  }
+  .name {
+    display: flex;
+    .addressee_name {
+      margin-left: 1rem;
+      color: gray;
+      font-weight: bold;
+      display: flex;
+      svg {
+        fill: gray;
+      }
+    }
+  }
+}
+.menu_wrapper {
+  position: relative;
+  .menu {
+    position: absolute;
+    padding: 0.5rem 0.7rem;
+    color: #212121;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px 0 5px 5px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.6), #212121);
+    right: 0;
+    span {
+      transition: all 0.2s ease;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 0.2rem;
+      svg {
+        margin-left: 0.4rem;
+      }
+    }
+    span:hover {
+      color: #111010;
+      background: transparent;
+      filter: invert(1);
+      color: #fff;
+    }
+  }
+}

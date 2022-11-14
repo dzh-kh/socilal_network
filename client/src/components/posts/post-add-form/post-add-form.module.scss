@@ -1,0 +1,26 @@
+.postForm {
+  & > form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  input {
+    margin: 0.3rem 0;
+  }
+
+  h3 {
+    color: #fff;
+    margin: 0.5rem auto;
+    text-align: center;
+  }
+  .error {
+    color: #bf1650;
+    font-size: 0.8rem;
+    margin-bottom: 0.8rem;
+    text-align: center;
+    &::before {
+      display: inline;
+      content: "⚠ ";
+    }
+  }
+}

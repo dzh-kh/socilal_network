@@ -1,0 +1,47 @@
+@import "@assets/styles/variables";
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 1rem;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-right: 1rem;
+  }
+}
+.radio_input__wrapper,
+.radio_input__wrapper__active {
+  padding: 0.5rem;
+  background-color: $main-color;
+  min-width: 5rem;
+  max-width: fit-content;
+  margin: 0.2rem;
+  border-radius: 2px;
+  color: #fff;
+  font-weight: bold;
+  box-shadow: inset 1px 1px 1px 0 rgba(255, 255, 255, 0.5);
+  &__active {
+    box-shadow: inset 1px 2px 4px 2px rgb(0 0 0 / 50%);
+  }
+}
+
+.filter_panel {
+  display: flex;
+  color: #fff;
+  align-items: baseline;
+  &__list_wrapper {
+    display: flex;
+    margin-left: 0.4rem;
+    flex-direction: column;
+    div {
+      width: 150px;
+    }
+  }
+}

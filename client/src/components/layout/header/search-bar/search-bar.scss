@@ -1,0 +1,42 @@
+.searchbar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid rgba(100, 181, 246, 0.5);
+  backdrop-filter: brightness(0.5);
+  border-radius: 23px;
+  padding: 0 1rem;
+  width: 50% !important;
+}
+
+.react-async_searchbar {
+  &__value-container {
+    border-radius: 3px;
+    display: inline-flex;
+    align-items: center;
+    background-color: #fff;
+    background-color: transparent;
+  }
+  &__placeholder {
+    color: rgba(255, 255, 255, 0.8) !important;
+  }
+  &__input-container {
+    color: #fff !important;
+  }
+  &__control {
+    border: none !important;
+    font-size: 13px;
+    box-shadow: none !important;
+    background-color: transparent !important;
+  }
+
+  &__dropdown-indicator,
+  &__clear-indicator,
+  &__indicator-separator {
+    display: none !important;
+  }
+  &__option {
+    color: rgb(18, 18, 18) !important;
+  }
+}

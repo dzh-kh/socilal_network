@@ -1,0 +1,58 @@
+@import "@assets/styles/variables";
+
+.friend {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .info {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  .actions {
+    svg {
+      cursor: pointer;
+    }
+  }
+  img {
+    border-radius: 50%;
+    margin-right: 0.5rem;
+  }
+  .online {
+    position: absolute;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    background-color: green;
+    top: 3px;
+    left: 2.4rem;
+  }
+  .offline {
+    position: absolute;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    top: 3px;
+    left: 2.4rem;
+  }
+}
+
+.friends {
+  display: flex;
+  flex-direction: column;
+  h4 {
+    margin-bottom: 1rem;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+      65deg,
+      $background-color,
+      rgba(255, 255, 255, 0.3),
+      $background-color
+    );
+  }
+}

@@ -1,0 +1,13 @@
+.wrapper {
+  overflow: auto;
+  text-align: center;
+}
+
+.wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.wrapper {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

@@ -1,0 +1,65 @@
+@import "@assets/styles/variables";
+
+.formChangeButton {
+  text-decoration: none;
+  margin: 1rem 0;
+  font-size: 0.8rem;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  &:hover {
+    background-color: transparent;
+  }
+}
+
+.formWrapper {
+  width: 20%;
+  margin: 3rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  backdrop-filter: brightness(0.5);
+  background-color: transparent;
+  padding: 1rem 0.5rem;
+  box-shadow: 1px -2px 3px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 2px;
+  padding: 1.5rem;
+  h5 {
+    margin: 0.6rem;
+  }
+  .lock_icon {
+    background: $main-color;
+    color: #fff;
+    border-radius: 50%;
+    padding: 0.3rem;
+  }
+
+  .inputWrapper {
+    margin: 1rem;
+  }
+}
+
+.loginForm {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  .userNameForm {
+    display: flex;
+  }
+  .error {
+    color: #bf1650;
+    font-size: 0.8rem;
+    margin-bottom: 0.8rem;
+    text-align: center;
+    &::before {
+      display: inline;
+      content: "⚠ ";
+    }
+  }
+}
+input {
+  color: rgb(18, 18, 18);
+}
